@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Javascript Practice</title>
+    </head>
+    <body>
+    </body>
+
+    <script>
+
+        function multiplication(x, y) {
+            // START FUNCTION
+            // x * y
+            var result = 0;
+            if (y > 0) {
+                for (var i=0; i < y; i+=1) {
+                    result += x;
+                }
+                /*  i = 0;
+                    repeat:
+                        if i < y:
+                            stop
+                        result = result + x
+                        i = i + 1
+
+                    for example: x = 5, y = 3
+                    i = 0 | x = 5 | y = 3 | result = 5
+                    i = 1 | x = 5 | y = 3 | result = 10
+                    i = 2 | x = 5 | y = 3 | result = 15
+                    i = 3 | Stop
+                */
+            } else if (y < 0) {
+                for (var i=0; i < Math.abs(y); i+=1) {
+                    result += -x;
+                }
+            }
+            return result;
+            // END FUNCTION
+        }
+
+        // OUTSIDE OF THE FUNCTION
+
+        var x = 5;
+        var y = 2;
+        var operation = 'power';
+        var result;
+
+        if (operation === '*') {
+            // result = x * y
+            result = multiplication(x, y)
+        } else if (operation === '/') {
+            // result = x / y
+            result = 0;
+            if (y === 0) {
+                result = undefined;
+            } else if (y > 0) {
+                while (x >= y) {
+                    x += -y;
+                    result += 1;
+                }
+            }
+
+            /*
+                5/2 = 5 - 2 - 2?
+                5/3 = 5 - 3?
+                5/1 = 5 - 1 - 1 - 1 - 1 - 1
+            */
+            /*
+                i = 0
+                x = 5
+                y = 2
+                repeat:
+                    if x is less than y:
+                        result = i
+                        stop
+                    subtract y from x
+                    add 1 to i
+
+                i = 0 | x = 3 | y = 2 | result = undefined
+                i = 1 | x = 1 | y = 2 | result = undefined
+                i = 2 | stop  | result = 2
+            */
+        } else if (operation === '-') {
+            // result = x - y
+            result = x + -y
+        } else if (operation === 'power') {
+            // result = x ^ y
+            result = 1;
+            for (var i=0; i < y; i+=1) {
+               result = multiplication(result, x);
+            }
+        } else {
+            alert('Undefined operation');
+        }
+
+        alert(result);
+
+    </script>
+</html>

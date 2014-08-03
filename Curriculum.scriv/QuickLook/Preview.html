@@ -1,0 +1,432 @@
+<html>
+
+<head>
+<title>Curriculum</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+	body {background-color: #bac0c7}
+    p.binderItem {margin: 10.0px 0.0px 0.0px 05.0px; font-family:Helvetica Neue, Cochin, Times, Courier, Arial, serif; font-size:14.0px;}
+    .page {border: 1px solid #727272; background: #fff}
+    hr {
+      border-top: 1px dashed #000;
+      border-bottom: 0px solid #fff;
+      color: #fff;
+      background-color: #fff;
+      height: 0px;
+  </style>
+</head>
+
+<body>
+
+<table border="0" width="100%" cellspacing="3">
+<tr>
+<td>
+
+<table class="page" width="100%" cellspacing="10" cellpadding="2">
+<tr>
+<td valign="top">
+
+<ul>
+<li>
+<p class="binderItem"><strong>APIsAJAX</strong></p>
+</li>
+<hr/>
+<ul>
+<li>
+<p class="binderItem"><strong>Ajax Exercises</strong><br/> • http://api.jquery.com/jquery.ajax/<br/>
+ • http://www.codecademy.com/courses/javascript-beginner-en-g7vdk/0/1</p>
+</li>
+<li>
+<p class="binderItem"><strong>Intro to APIs and Ajax</strong><br/> • API (Application Programming Interface)<br/>
+ ◦ For web development, and API is just a list of URLS that you can call to get or edit data within a system.<br/>
+ ◦ The example we used is Twitter's API: Twitter created a series of URLs that you can call via ajax to get information or create/edit/delete information from twitter.<br/>
+ ◦ APIs must be documented by the creators of the API: e.g. https://dev.twitter.com/docs<br/>
+ • Ajax (asynchronous javascript and xml)<br/>
+ ◦ Ajax calls are used to get/create/edit/delete...</p>
+</li>
+<li>
+<p class="binderItem"><strong>Twitter API Lecture</strong></p>
+</li>
+<li>
+<p class="binderItem"><strong>YourAPIHere Exercise</strong><br/> • Cd ~/projects<br/>
+ • Mkdir yourapihere<br/>
+ • Cd yourapihere<br/>
+ • Touch index.html<br/>
+ • Touch style.css<br/>
+ • Touch script.js<br/>
+ • Inside of your document ready call, make an ajax call to ‘yourapihere.com’<br/>
+<br/>
+$.ajax({<br/>
+    url: ‘http://yourapihere.com',<br/>
+    method: ‘GET’<br/>
+}).success(function(data) {<br/>
+    console.log(data);<br/>
+});<br/>
+<br/>
+<br/>
+<!— Copy and paste into index.html —><br/>
+<br/>
+<!DOCTYPE html><br/>
+<html lang=‘en’><br/>
+    <head><br/>
+        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css"><br/>
+  ...</p>
+</li>
+</ul>
+<hr/>
+<li>
+<p class="binderItem"><strong>CSS</strong></p>
+</li>
+<hr/>
+<ul>
+<li>
+<p class="binderItem"><strong>CSS Exercises</strong><br/> • http://www.codecademy.com/courses/web-beginner-en-HZA3b/1/1?curriculum_id=50579fb998b470000202dc8b<br/>
+ • http://www.codecademy.com/courses/web-beginner-en-TlhFi/0/1?curriculum_id=50579fb998b470000202dc8b<br/>
+ • http://www.codecademy.com/courses/web-beginner-en-WF0CF/0/1?curriculum_id=50579fb998b470000202dc8b<br/>
+ • http://flukeout.github.io/<br/>
+ • http://www.codecademy.com/tracks/web?jump_to=5024844597a4040002069e67<br/>
+ • Twitter Exercise<br/>
+ • Twitter Exercise with Bootstrap<br/>
+ • To Do List - CSS</p>
+</li>
+<li>
+<p class="binderItem"><strong>CSS Inheritance</strong><br/> • Importance<br/>
+ ◦ User agent declarations - for example, the browser’s default style sheet<br/>
+ ◦ User declarations - Such as the browser’s user options<br/>
+ ◦ Author declarations - This is the CSS provided by the webpage (whether inline, embedded, or external)<br/>
+ ◦ Author !important declarations<br/>
+ ◦ User !important declarations<br/>
+ • Specificity<br/>
+ ◦ Add 1 for each element and pseudo-element (for example, div, p, :before and :after); <br/>
+ ◦ add 10 for each attribute (for example, [type=”text”]), class and pseudo-c...</p>
+</li>
+<li>
+<p class="binderItem"><strong>CSS Box model</strong><br/>Box Model<br/>
+ • Inner Box is content. Where all the stuff goes. Affected by width and height.<br/>
+ • Next box up is padding. It adds to the inner most box rather than subtracting from it. Affected by padding<br/>
+ • Next box is border. Can be specified using border. Can be colored and width specified as well as border type<br/>
+ • Next is margin.<br/>
+ • Finally, top, right, left, bottom</p>
+</li>
+<li>
+<p class="binderItem"><strong>Intro to Bootstrap</strong><br/> • How the browser gets the bootstrap CSS files<br/>
+ ◦ <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css"><br/>
+ ◦ Makes a call to the given URL and gets back a CSS file.<br/>
+ ◦ What does this mean for your page’s CSS.<br/>
+ ◦ Browser styles, bootstrap styles, and your styles (style.css)<br/>
+ • Bootstrap grid<br/>
+ ◦ Container, row, col<br/>
+ • Bootstrap responsive elements<br/>
+ ◦ Col-lg, col-md, col-sm<br/>
+ • Less and Sass<br/>
+ ◦ What are they?<br/>
+ ◦ Why do we use them? (Intro to variables)<br/>
+ • Exam...</p>
+</li>
+<li>
+<p class="binderItem"><strong>Twitter Exercise</strong><br/>Free form exercise:<br/>
+<br/>
+It's time to start working on more free form styling. We're going to have you try to imitate the layout of the Twitter login page. You don't need to get all button and visual styling, the goal is just to start working through how you layout elements on the page. <br/>
+<br/>
+https://twitter.com/login<br/>
+<br/>
+Command Line Getting started:<br/>
+<br/>
+ • cd ~<br/>
+ • cd projects<br/>
+ • mkdir twitter-page<br/>
+ • cd twitter-page<br/>
+ • touch index.html<br/>
+ • touch style.css<br/>
+ • python -m SimpleHTTPServer<br/>
+ • Open http://localhos...</p>
+</li>
+</ul>
+<hr/>
+<li>
+<p class="binderItem"><strong>Draft</strong></p>
+</li>
+<li>
+<p class="binderItem"><strong>Final Project</strong></p>
+</li>
+<hr/>
+<ul>
+<li>
+<p class="binderItem"><strong>Final Project Planning</strong><br/> • What’s your vision, what do you want to say about yourself?<br/>
+ • Break that into small pieces that you can implement.<br/>
+ • Site outline and navigation.<br/>
+ • Site content<br/>
+ • Site look and feel<br/>
+ • Site look and feel interactions<br/>
+ • External content/API integrations<br/>
+ ◦ Tweets<br/>
+ ◦ Github Projects<br/>
+ ◦ Twilio<br/>
+ • Browser and device compatibility<br/>
+<br/>
+Helpful Links<br/>
+<br/>
+ • General Javascript Plugins<br/>
+ ⁃ http://codyhouse.co/<br/>
+ • javascript single page scroll <br/>
+ ◦ http://alvarotrigo.com/fullPage/<br/>
+ • rotating pictures<br/>
+ ◦ ...</p>
+</li>
+<li>
+<p class="binderItem"><strong>Getting Started with Github</strong><br/> • Getting started with git and Github.<br/>
+ ◦ What is git and why do you need to know about it?<br/>
+ ◦ We covered git and Github, which are two of the most popular tools used today for version control. You should be good with the cheat sheet I gave you, but if you want to learn more about git or GitHub here are some links.<br/>
+ ◦ https://www.atlassian.com/git/tutorial/git-basics#!overview<br/>
+ ◦ https://try.github.io/levels/1/challenges/1<br/>
+ ◦ http://pcottle.github.io/learnGitBranching/<br/>
+<br/>
+ • Getting your final pr...</p>
+</li>
+<li>
+<p class="binderItem"><strong>Pushing code to Github</strong><br/> • Git status<br/>
+ • Git add .<br/>
+ • Git commit -m “commit message here”<br/>
+ • Git push origin master</p>
+</li>
+</ul>
+<hr/>
+<li>
+<p class="binderItem"><strong>First Day</strong></p>
+</li>
+<hr/>
+<ul>
+<li>
+<p class="binderItem"><strong>Bash Commands Intro</strong><br/> • Bash Commands:<br/>
+ ◦ Cd<br/>
+ ◦ Mkdir<br/>
+ ◦ Ls<br/>
+ ◦ Ls -l<br/>
+ ◦ .<br/>
+ ◦ ..<br/>
+ ◦ Git<br/>
+ ◦ Python<br/>
+ ◦ touch<br/>
+ ◦ http://cli.learncodethehardway.org/book/</p>
+</li>
+<li>
+<p class="binderItem"><strong>Installations</strong><br/> ◦ Install the “Command Line Tools” from Apple via the Developer's Site for your particular operating version of Mac (you may need to create a free “Developer” account.)<br/>
+ ◦ Open the Terminal App: Navigate to Applications, then Utilities, and double-click on Terminal.<br/>
+ ◦ Command Prompt for windows.<br/>
+ ◦ Windows must install Python<br/>
+ ◦ Installing the non-Python package manager for Mac, called “brew”:<br/>
+ ▪ Copy the following command into your Terminal application:<br/>
+ ▪ ruby -e "$(curl -fsSL https://raw.gi...</p>
+</li>
+<li>
+<p class="binderItem"><strong>Intro to the Interwebs</strong></p>
+</li>
+</ul>
+<hr/>
+<li>
+<p class="binderItem"><strong>HTML</strong></p>
+</li>
+<hr/>
+<ul>
+<li>
+<p class="binderItem"><strong>History of HTML</strong><br/> • HTML<br/>
+ ⁃     Invented at CERN (Geneva Switzerland) in 1989 by Time Berner-Lee<br/>
+ ⁃     Started with linking text within physics documents<br/>
+ • Hypertext<br/>
+ ⁃     Existed since the 40s<br/>
+ ⁃     Started with Apple in the 80s with Hypercards<br/>
+ ⁃     Hypercards were sites that you could navigate from on screen buttons<br/>
+ • Domain name system<br/>
+ ⁃     Finding hypercards from the name instead of the ip address<br/>
+ ⁃     Could only make "jumps" to cards on the same computer<br/>
+ • Choosing the right approach<br/>
+ ⁃     Lots...</p>
+</li>
+<li>
+<p class="binderItem"><strong>HTML Exercises</strong><br/> • http://www.w3schools.com/quiztest/quiztest.asp?qtest=HTML<br/>
+ • http://www.codecademy.com/tracks/web?jump_to=5024844597a4040002069e67<br/>
+ • To Do List - HTML</p>
+</li>
+<li>
+<p class="binderItem"><strong>Intro to HTML</strong><br/>What is HTML?<br/>
+ • Hyper text markup language<br/>
+ • Hyper text is just links<br/>
+ • Historically the internet was just links to different documents. It’s original use case was document sharing in the government and academia. <br/>
+ • No pretty stuff -> that’s CSS.<br/>
+ •     HTML documents are web pages<br/>
+<br/>
+What are the major parts of HTML?<br/>
+ • Head and a body just like people!<br/>
+ • HTML consists of tags, most of which have start and end derivatives. <br/>
+ • A, p, div, table/tr/th/td, h1, input, form, label, ul/li, ol/li, ...</p>
+</li>
+</ul>
+<hr/>
+<li>
+<p class="binderItem"><strong>Javascript</strong></p>
+</li>
+<hr/>
+<ul>
+<li>
+<p class="binderItem"><strong>FindLetter Demo</strong><br/>Find the instance of a single letter string inside a longer string. Below, there are three solutions. Each solution defines a function that requires a searchString and a targetLetter to be passed in. e.g:<br/>
+<br/>
+findLetter('aabdfg', 'f');<br/>
+<br/>
+//solution #1<br/>
+function findLetter(searchString, targetLetter) {<br/>
+    for(var i = 0; i < searchString.length; i++) {<br/>
+        if (searchString.charAt(i) === targetLetter) {<br/>
+            return true;<br/>
+        }<br/>
+    }<br/>
+    return false;<br/>
+}<br/>
+<br/>
+<br/>
+//solution #2<br/>
+function findLetter...</p>
+</li>
+<li>
+<p class="binderItem"><strong>Intro to Javascript</strong><br/> • History of Javascript<br/>
+ ⁃ Created in 10 days<br/>
+ ⁃ Javascript != Java (doesn’t really matter why)<br/>
+ ⁃ The name Javascript was a bit of a marketing move<br/>
+ • Intro to Javascript<br/>
+ ⁃ Javascript is used to programming interactions<br/>
+ ⁃ It’s a scripting language -> what does this mean?<br/>
+ ⁃ Commands executed in series<br/>
+ • What is it used for?<br/>
+ ⁃ It’s used to program interactions and manipulate the DOM.<br/>
+ ⁃ It’s used to access the DOM <br/>
+ ⁃ Basically, HTML objects are things that can be styled or moved.<br/>
+ • Basic ...</p>
+</li>
+<li>
+<p class="binderItem"><strong>Javascript Continued</strong><br/> • String objects<br/>
+ • Number objects<br/>
+ • Array objects<br/>
+ • Object objects<br/>
+ • Boolean objects<br/>
+ • Variables<br/>
+ • Conditional statements (Boolean Logic)<br/>
+ • If/Else statements<br/>
+ • For loops<br/>
+ • While loops<br/>
+<br/>
+</p>
+</li>
+<li>
+<p class="binderItem"><strong>Javascript Exercises</strong><br/> • http://www.codecademy.com/en/tracks/javascript?jump_to=4fa836e5996b00000302064a<br/>
+ • Arrays and Objects - http://www.codecademy.com/courses/javascript-beginner-en-9Sgpi/0/1?curriculum_id=506324b3a7dffd00020bf661</p>
+</li>
+<li>
+<p class="binderItem"><strong>Javascript Review</strong></p>
+</li>
+</ul>
+<hr/>
+<li>
+<p class="binderItem"><strong>JQuery</strong></p>
+</li>
+<hr/>
+<ul>
+<li>
+<p class="binderItem"><strong>Intro to JQuery</strong><br/>Intro to JQuery<br/>
+<br/>
+ • $ - What is this?<br/>
+ • Functions, variables, etc in JQuery<br/>
+ ⁃ $(document).ready(function() {});<br/>
+ ⁃ Selecting DOM elements<br/>
+ ⁃ .find()<br/>
+ • DOM manipulation<br/>
+ ⁃ .addClass()<br/>
+ ⁃ .removeClass()<br/>
+ ⁃ .html()<br/>
+ ⁃ .text()<br/>
+ ⁃ .getAttribute()<br/>
+ • Events<br/>
+ ⁃ Click<br/>
+ ⁃ Key down<br/>
+ ⁃ Key up<br/>
+ ⁃ Mouseover<br/>
+ ⁃ Mouseout<br/>
+ • Effects<br/>
+ ⁃ FadeOut<br/>
+ ⁃ Hide<br/>
+ ⁃ FadeTo<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+</p>
+</li>
+<li>
+<p class="binderItem"><strong>JQuery Continued</strong></p>
+</li>
+<li>
+<p class="binderItem"><strong>JQuery Exercises</strong><br/> • http://www.codecademy.com/tracks/jquery<br/>
+ • To Do List JQuery Exercise 1<br/>
+ • To Do List JQuery Exercise 2<br/>
+ • To Do List JQuery Exercise 3<br/>
+ • http://try.jquery.com/</p>
+</li>
+</ul>
+<hr/>
+<li>
+<p class="binderItem"><strong>Outline</strong><br/>Course Outline<br/>
+ • Weeks 1-2: Intro to computers, web, and static web (HTML, CSS)<br/>
+ • Weeks 3-6: Dynamic web (JS, JQuery, Ajax)<br/>
+ • Weeks 7-10: Final Project<br/>
+<br/>
+Intro<br/>
+Week 1 Day 1:<br/>
+ • Meet and Greet<br/>
+ ◦ Names, what does everyone do?<br/>
+ • Overview of the class<br/>
+ ◦ What we’ll cover<br/>
+ ◦ What to expect out of this class<br/>
+ ◦ A bit about final projects<br/>
+ ◦ Questions and Feedback<br/>
+ • Installations<br/>
+ • Bash Commands Intro<br/>
+ • If time -> Intro to the Interwebs<br/>
+<br/>
+Static Web<br/>
+Week 1 Day 2 - HTML<br/>
+ • 30 minutes: Intro to HTM...</p>
+</li>
+<li>
+<p class="binderItem"><strong>Resources</strong><br/>Sublime Keyboard Shortcuts<br/>
+http://sublime-text-unofficial-documentation.readthedocs.org/en/latest/reference/keyboard_shortcuts_osx.html</p>
+</li>
+<li>
+<p class="binderItem"><strong>To Do List</strong><br/>HTML Exercise:<br/>
+ • cd ~<br/>
+ • cd projects<br/>
+ • mkdir to-do-list<br/>
+ • cd to-do-list<br/>
+ • touch index.html<br/>
+ • python -m SimpleHTTPServer<br/>
+ • Open http://localhost:8000 in your browser<br/>
+ • Open index.html<br/>
+ • Copy and paste the below html into your index.html file<br/>
+ • Any html you add to the body will show up when you refresh the page<br/>
+ • In the HTML, create the HTML for your To Do list and populate it with a few items. Remember inputs (type=‘checkbox’) and labels. Also, you might want to put your to do items in ...</p>
+</li>
+<li>
+<p class="binderItem"><strong>Untitled</strong></p>
+</li>
+</ul>
+
+</td>
+<td width="8">
+</td>
+</tr>
+</table>
+
+</td>
+</tr>
+</table>
+
+</body>
+</html>

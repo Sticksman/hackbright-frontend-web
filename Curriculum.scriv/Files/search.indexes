@@ -1,0 +1,997 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<SearchIndexes Version="1.0">
+    <Documents>
+        <Document ID="32">
+            <Title>Intro to Javascript</Title>
+            <Text>	•	History of Javascript
+	⁃	Created in 10 days
+	⁃	Javascript != Java (doesn’t really matter why)
+	⁃	The name Javascript was a bit of a marketing move
+	•	Intro to Javascript
+	⁃	Javascript is used to programming interactions
+	⁃	It’s a scripting language -&gt; what does this mean?
+	⁃	Commands executed in series
+	•	What is it used for?
+	⁃	It’s used to program interactions and manipulate the DOM.
+	⁃	It’s used to access the DOM 
+	⁃	Basically, HTML objects are things that can be styled or moved.
+	•	Basic elements
+	⁃	String 
+	⁃	Number
+	⁃	Var
+	⁃	If
+	⁃	Else
+	⁃	While
+	⁃	For
+	•	Readings
+	⁃	https://www.w3.org/community/webed/wiki/A_Short_History_of_JavaScript
+	⁃	http://www.w3schools.com/js/DEFAULT.asp
+</Text>
+        </Document>
+        <Document ID="18">
+            <Title>Final Project Planning</Title>
+            <Text>	•	What’s your vision, what do you want to say about yourself?
+	•	Break that into small pieces that you can implement.
+	•	Site outline and navigation.
+	•	Site content
+	•	Site look and feel
+	•	Site look and feel interactions
+	•	External content/API integrations
+	◦	Tweets
+	◦	Github Projects
+	◦	Twilio
+	•	Browser and device compatibility
+
+Helpful Links
+
+	•	General Javascript Plugins
+	⁃	http://codyhouse.co/
+	•	javascript single page scroll 
+	◦	http://alvarotrigo.com/fullPage/
+	•	rotating pictures
+	◦	http://responsiveslides.com/
+	•	masonry layouts
+	◦	http://masonry.desandro.com/#getting-started
+	•	carousel
+	◦	http://getbootstrap.com/javascript/#carousel
+	•	black and white -&gt; color images on hover
+	◦	http://stackoverflow.com/questions/7273927/image-greyscale-with-css-re-color-on-mouse-over
+	•	embedding linkedin via ajax or html
+	◦	https://developer.linkedin.com/documents/creating-member-profile-plugin
+	•	multiple html page nav bar
+	◦	Create a separate .html page for each page on your site.
+	◦	Save these html files inside your [username].github.io folder
+	◦	In your link (a) tag, reference these pages like this:
+	▪	&lt;a href="name_of_page.html"&gt;Display Text&lt;/a&gt;
+	◦	Make sure that each html page includes all the same js and css files, and you'll have to copy over your navbar to each html page.
+	•	add an image to your page
+	◦	drag and drop your image into your project folder
+	◦	reference the image in your html, js, or css by its exact name (i.e. name.jpg or name.jpeg or name.png or Name.jpg)
+
+</Text>
+        </Document>
+        <Document ID="40">
+            <Title>JQuery Exercises</Title>
+            <Text>	•	http://www.codecademy.com/tracks/jquery
+	•	To Do List JQuery Exercise 1
+	•	To Do List JQuery Exercise 2
+	•	To Do List JQuery Exercise 3
+	•	http://try.jquery.com/
+</Text>
+        </Document>
+        <Document ID="33">
+            <Title>Intro to JSON</Title>
+            <Text>￼JavaScript Object NotationAKA: JSON￼￼
+￼￼Who Created JSONDoug Crockford popularized it in April 2001￼
+￼￼Who used JSON● Cartoon Network was the first (for chatting)￼
+￼￼Who used JSON● Cartoon Network was the first (for chatting) ● Sun Microsystems￼
+￼￼Who used JSON● Cartoon Network was the first (for chatting) ● Sun Microsystems● Amazon.com￼
+￼￼Who used JSON● Cartoon Network was the first (for chatting) ● Sun Microsystems● Amazon.com● Electronic Data Systems (EDS)￼
+￼￼What is JSONLanguage-independent data format￼
+￼￼Where/When JSON Is Used● Talking to a server from the browser￼
+￼￼Where/When JSON Is Used● Talking to a server from the browser● Moving data around inside of Javascript￼
+￼￼Why use JSONMoving data￼
+￼￼Why use JSONMoving data● Browser to server￼
+￼￼Why use JSONMoving data● Browser to server● From one part of your JS app to another￼
+￼￼Noticing the PatternJSON is storage for communication￼
+￼￼JSON 6 Datatypes1. Number - Signed decimal (with E notation)￼
+￼￼JSON 6 Datatypes1. Number - Signed decimal (with E notation) 2. String - Zero or more unicode characters￼
+￼￼JSON 6 Datatypes1. Number - Signed decimal (with E notation) 2. String - Zero or more unicode characters 3. Boolean - true or false￼
+￼￼JSON 6 Datatypes1. Number - Signed decimal (with E notation) 2. String - Zero or more unicode characters 3. Boolean - true or false4. Array - Ordered list of zero or more values￼
+￼￼JSON 6 Datatypes1. Number - Signed decimal (with E notation) 2. String - Zero or more unicode characters 3. Boolean - true or false4. Array - Ordered list of zero or more values 5. null - An empty value or the word null￼
+￼￼JSON 6 Datatypes (too much text here)1. Number - Signed decimal (with E notation)2. String - Zero or more unicode characters3. Boolean - true or false4. Array - Ordered list of zero or more values5. null - An empty value or the word null6. Object - Unordered list of zero or more associative pairs￼
+￼￼JSON ExampleJSON describing a person:￼￼
+￼￼Using JSON in JavaScriptJSON is derived (mostly) from JavaScript￼
+￼￼Using JSON in JavaScriptJSON is derived (mostly) from JavaScriptJSON can be natively used (mostly) in JavaScript￼
+￼￼Using JSON in JavaScriptJSON is derived (mostly) from JavaScriptJSON can be natively used (mostly) in JavaScript Since 2010, JSON is supported in most browsers￼
+￼￼Using JSON in JavaScriptJSON parsing example:￼￼
+￼￼Using JSON in JavaScriptJSON parsing example:￼￼This shows turning a string into JSON
+￼￼XML vs JSON (When Moving Data)XML (143 Characters) JSON (117 Characters)Very verbose More efficient￼￼￼￼
+￼￼ConclusionJSON used for moving and storing data￼
+￼￼Get These Slideshttp://tinyurl.com/HBJSON￼￼</Text>
+        </Document>
+        <Document ID="26">
+            <Title>History of HTML</Title>
+            <Text>	•	HTML
+	⁃	    Invented at CERN (Geneva Switzerland) in 1989 by Time Berner-Lee
+	⁃	    Started with linking text within physics documents
+	•	Hypertext
+	⁃	    Existed since the 40s
+	⁃	    Started with Apple in the 80s with Hypercards
+	⁃	    Hypercards were sites that you could navigate from on screen buttons
+	•	Domain name system
+	⁃	    Finding hypercards from the name instead of the ip address
+	⁃	    Could only make "jumps" to cards on the same computer
+	•	Choosing the right approach
+	⁃	    Lots of types of computers connected to the internet in their own ways
+	⁃	    Standardizing was difficult
+	•	HTTP was invented to transfer HTML
+	•	HTML came from SGML (Standard Generalized Markup Language)
+	⁃	    Tags that were the same, title, ul, ol, li, p, h1-h6.
+	⁃	    New tag: a
+	⁃	    a tags and www.name.name were invented at the same time by Tim
+	•	1991 The birth of HTML+
+	⁃	    Adding more things "people" would want
+	•	1992 National Center for Supercomputing Applications (NCSA) connects to CERN and downloads two free web browsers
+	⁃	    Decides to write their own called Mosaic
+	•	1992 Adding images to web pages
+	•	1993 Lynx (The first text based browser)
+	•	April 93 Mosaic Browser is released for Sun Microsystems
+	⁃	    Full of improperly designed, ad hoc features
+	•	1994 IETF (Internet Engineering Task Force)
+	⁃	    Groups on topics for example security, network routing and applications
+	⁃	    IEFT believes that the Web and the Internet belong to The People
+	•	LOTS OF PARTIES! Pony Tails, t-shirts and jeans. In hotel lobbies with beer!
+	•	July 1994
+	⁃	    HTML Specs for HTML2 released
+	•	November 1994
+	⁃	    Netscape is formed
+	⁃	    They start throwing their weight around do to their early popularity
+	⁃	    They start making thier own HTML tags and not conferring with anyone else
+	•	Late 1994
+	⁃	    The World Wide Web Consortium (W3C) is formed
+	⁃	    Sponsored by companies to standardize the web
+	•	1995
+	⁃	    LOTS of new tags added to HTML
+	⁃	    Academics hated it cause it added flare to the web that was meant for docs
+	•	March 1995
+	⁃	    HTML3 is published
+	⁃	    Lots of browsers added parts of HTML3 because they wanted to
+	⁃	    Tables were not standard and the Navy standard was pushed
+	•	Aug 1995
+	⁃	    IE1.0 released
+	⁃	    Nov 1995 IE2.0 released
+	•	Sept 95
+	⁃	    Netscape propses frames
+	•	November 1995
+	⁃	    Vendors come together to standardize HTML further (it worked)
+	⁃	    Style Sheets begin to take shape
+	•	Dec 1995
+	⁃	    IETF is dismantled
+	•	April 1996
+	⁃	    JS added to HTML Standard
+	•	July 1996
+	⁃	    MS seems more interested in open standards that originally thought
+	⁃	    IE Becomes available for Windows 3.1 and Macs
+	⁃	    Marquee and Blink tags added
+	•	January 1997
+	⁃	    Success! HTML 3.2 succeeds as the cross-industry standard
+	⁃	    HTML 3.2 = parts of HTML+ HTML2 and HTML3
+	⁃	    HTML 3.2 = Text flowing around images, sub and super scripts
+	•	December 1997
+	⁃	    HTML4 is standardized
+	⁃	    HTML4 got rid of visual attributes that Netscape put in place
+	•	LOTS OF REVISIONS AND CHANGES. THE PARTY IS OVER.
+	•	January 2008
+	⁃	    HTML5 Working draft published
+	•	May 2011
+	⁃	    "Last call" for changes for HTML5</Text>
+        </Document>
+        <Document ID="19">
+            <Title>Getting Started with Github</Title>
+            <Text>	•	Getting started with git and Github.
+	◦	What is git and why do you need to know about it?
+	◦	We covered git and Github, which are two of the most popular tools used today for version control. You should be good with the cheat sheet I gave you, but if you want to learn more about git or GitHub here are some links.
+	◦	https://www.atlassian.com/git/tutorial/git-basics#!overview
+	◦	https://try.github.io/levels/1/challenges/1
+	◦	http://pcottle.github.io/learnGitBranching/
+
+	•	Getting your final project started with Github
+	◦	https://pages.github.com/
+	◦	Cd ~/projects
+	◦	Git clone [project URL https]
+	◦	Touch index.html
+	◦	Touch style.css
+	◦	Touch script.js
+
+&lt;!DOCTYPE html&gt;
+&lt;html lang=‘en’&gt;
+    &lt;head&gt;
+        &lt;link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css"&gt;
+        &lt;link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet"&gt;
+        &lt;link href="style.css" rel="stylesheet"&gt;
+
+        &lt;script src="//code.jquery.com/jquery-1.11.0.min.js"&gt;&lt;/script&gt;
+        &lt;script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"&gt;&lt;/script&gt;
+        &lt;script type="text/javascript" src="script.js"&gt;&lt;/script&gt;
+        &lt;title&gt;Final Project Title&lt;/title&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+    &lt;/body&gt;
+&lt;/html&gt;
+</Text>
+        </Document>
+        <Document ID="11">
+            <Title>CSS Exercises</Title>
+            <Text>	•	http://www.codecademy.com/courses/web-beginner-en-HZA3b/1/1?curriculum_id=50579fb998b470000202dc8b
+	•	http://www.codecademy.com/courses/web-beginner-en-TlhFi/0/1?curriculum_id=50579fb998b470000202dc8b
+	•	http://www.codecademy.com/courses/web-beginner-en-WF0CF/0/1?curriculum_id=50579fb998b470000202dc8b
+	•	http://flukeout.github.io/
+	•	http://www.codecademy.com/tracks/web?jump_to=5024844597a4040002069e67
+	•	Twitter Exercise
+	•	Twitter Exercise with Bootstrap
+	•	To Do List - CSS
+</Text>
+        </Document>
+        <Document ID="41">
+            <Title>Outline</Title>
+            <Text>Course Outline
+	•	Weeks 1-2: Intro to computers, web, and static web (HTML, CSS)
+	•	Weeks 3-6: Dynamic web (JS, JQuery, Ajax)
+	•	Weeks 7-10: Final Project
+
+Intro
+Week 1 Day 1:
+	•	Meet and Greet
+	◦	Names, what does everyone do?
+	•	Overview of the class
+	◦	What we’ll cover
+	◦	What to expect out of this class
+	◦	A bit about final projects
+	◦	Questions and Feedback
+	•	Installations
+	•	Bash Commands Intro
+	•	If time -&gt; Intro to the Interwebs
+
+Static Web
+Week 1 Day 2 - HTML
+	•	30 minutes: Intro to HTML
+	◦	Best Practices For Indentation Demo
+	•	1 hour: HTML Exercises
+	•	30 minutes: History of HTML
+	•	1 hour: HTML Exercises
+
+Week 2 Day 1 - CSS
+	•	30 minutes: Intro to CSS (pdf)
+	•	1 hour: CSS Exercises
+	•	30 minutes: CSS Inheritance
+	•	1 hour: CSS Exercises
+
+Week 2 Day 2 - CSS Bootstrap
+	•	30 minutes: Intro to Bootstrap
+	•	1 hour: CSS Exercises
+	•	30 minutes: Intro to Bootstrap Examples
+	•	1 hour: CSS Exercises
+
+Dynamic Web
+Week 3 Day 1: Javascript
+	•	30 minutes: Intro to Javascript
+	•	1 hour: Javascript Exercises
+	•	30 minutes: Intro to Functions (pdf)
+	•	1 hour: Javascript Exercises
+
+Week 3 Day 2: Javascript
+	•	30 minutes: Javascript Continued
+	•	1 hour: Javascript Exercises
+	•	30 minutes: Intro to JSON (pdf)
+	•	1 hour: Javascript Exercises - Arrays and Objects
+
+Week 4 Day 1:
+	•	30 minted: Javascript Review
+	•	1 hour: finish Javascript Exercises
+	•	30 minutes: Intro to JQuery
+	•	1 hour: JQuery Exercises
+
+Week 4 Day 2:
+	•	30 minutes: JQuery Continued
+	•	1 hour: JQuery Exercises
+	•	30 minutes: Explain To Do list JQuery Exercise #1
+	•	1 hour: To Do list JQuery Exercise #1
+
+Week 5 Day 1:
+	•	30 minutes: Explain To Do list JQuery Exercise #2
+	•	1 hour: To Do list JQuery Exercise #2
+	•	30 minutes: Explain To Do list JQuery Exercise #3
+	•	1 hour: To Do list JQuery Exercise #3
+
+Week 5 Day 2:
+	•	3 hours: Walk through the To Do List exercise together
+	⁃	Have them create a new folder and project and work along with you
+	⁃	HTML Layout
+	⁃	Styling
+	⁃	Javascript interaction
+
+Ajax and APIs:
+Week 6 Day 1:
+	•	30 minutes: Intro to APIs and Ajax
+	•	1 hour: Ajax Exercises
+	•	30 minutes: Twitter API
+	•	1 hour: Ajax Exercises
+	⁃	Read Twitter Docs - https://dev.twitter.com/docs
+
+Week 6 Day 2:
+	•	30 minutes: Explain YourAPIHere Exercise
+	•	1 hour: YourAPIHere Exercise
+	•	1:30 minutes: Walk through YourAPIHere exercise together 
+
+Final Project Personal Websites
+Weeks 7-10:
+	•	Getting Started with Github
+	•	Pushing code to Github
+	•	Final Project Planning
+</Text>
+        </Document>
+        <Document ID="34">
+            <Title>Javascript Continued</Title>
+            <Text>	•	String objects
+	•	Number objects
+	•	Array objects
+	•	Object objects
+	•	Boolean objects
+	•	Variables
+	•	Conditional statements (Boolean Logic)
+	•	If/Else statements
+	•	For loops
+	•	While loops
+
+
+</Text>
+        </Document>
+        <Document ID="27">
+            <Title>HTML Exercises</Title>
+            <Text>	•	http://www.w3schools.com/quiztest/quiztest.asp?qtest=HTML
+	•	http://www.codecademy.com/tracks/web?jump_to=5024844597a4040002069e67
+	•	To Do List - HTML</Text>
+        </Document>
+        <Document ID="12">
+            <Title>CSS Inheritance</Title>
+            <Text>	•	Importance
+	◦	User agent declarations - for example, the browser’s default style sheet
+	◦	User declarations - Such as the browser’s user options
+	◦	Author declarations - This is the CSS provided by the webpage (whether inline, embedded, or external)
+	◦	Author !important declarations
+	◦	User !important declarations
+	•	Specificity
+	◦	Add 1 for each element and pseudo-element (for example, div, p, :before and :after); 
+	◦	add 10 for each attribute (for example, [type=”text”]), class and pseudo-class (for example, :link or :hover); 
+	◦	add 100 for each ID; 
+	◦	add 1000 for an inline style.
+	•	Inheritance
+	◦	Some element styles are inherited from parents, such as fonts, colors, etc.
+	◦	http://www.w3schools.com/css/DEFAULT.asp
+	◦	Others can be specified with 'inherit'. I.e. width:inherit.
+
+</Text>
+        </Document>
+        <Document ID="42">
+            <Title>Resources</Title>
+            <Text>Sublime Keyboard Shortcuts
+http://sublime-text-unofficial-documentation.readthedocs.org/en/latest/reference/keyboard_shortcuts_osx.html
+</Text>
+        </Document>
+        <Document ID="35">
+            <Title>Javascript Exercises</Title>
+            <Text>	•	http://www.codecademy.com/en/tracks/javascript?jump_to=4fa836e5996b00000302064a
+	•	Arrays and Objects - http://www.codecademy.com/courses/javascript-beginner-en-9Sgpi/0/1?curriculum_id=506324b3a7dffd00020bf661
+</Text>
+        </Document>
+        <Document ID="28">
+            <Title>Intro to HTML</Title>
+            <Text>What is HTML?
+	•	Hyper text markup language
+	•	Hyper text is just links
+	•	Historically the internet was just links to different documents. It’s original use case was document sharing in the government and academia. 
+	•	No pretty stuff -&gt; that’s CSS.
+	•	    HTML documents are web pages
+
+What are the major parts of HTML?
+	•	Head and a body just like people!
+	•	HTML consists of tags, most of which have start and end derivatives. 
+	•	A, p, div, table/tr/th/td, h1, input, form, label, ul/li, ol/li, title, textarea, img
+	•	http://www.w3schools.com/tags/
+	•	Tags are denoted by keywords surrounded by angle brackets and an end tag has an additional forward slash before the keyword. 
+	•	An example of tags would be:
+	⁃	&lt;html&gt;&lt;/html&gt;
+	•	Tags surround plain text. This text is what is displayed on the website. Don’t worry about positioning and and making things pretty yet; that’s covered in the next lesson. For now, remember that anything you want to show on a webpage needs to be wrapped in HTML tags.
+	•	Other tags that you will need to know are body, p, h(1-6), ul/ol/li, div, and span. In order, these tags are the body, which is where all visible parts of the web page go; p, which is a paragraph tag and should be used to surround paragraphs in a wrapping block of text; h(1-6), also known as header tags or “H” tags are used to denote header text for sections of your web site; ul/ol/li, all refer to lists and are specifically unordered list, ordered list and list item; div, is a division of your web page; span is a portion of text within a larger section of text.
+
+Different types of HTML objects:
+	•	If we think of these tags as objects and as containers, this means that you can put any object inside of another
+	•	Block elements take up a whole line
+	⁃	&lt;h1&gt;, &lt;p&gt;, &lt;ul&gt;, &lt;table&gt; &lt;div&gt; &lt;ul&gt;
+	•	Inline-block blocks (like &lt;li&gt; or &lt;div&gt;) that are inline with each other.
+	⁃	&lt;li&gt; &lt;div&gt;
+	•	Inline elements are…inline
+	⁃	&lt;Span&gt;, &lt;a&gt;, &lt;img&gt;, &lt;td&gt;
+	•	http://www.w3schools.com/html/html_blocks.asp
+
+Attributes and what they do.
+	•	Provide additional information about the element
+	•	They come in key/value pairs. 
+	•	The key is always the name of the attribute without quotes.
+	•	The value is assigned with = and the value is in quotes. e.g. Name=‘login-button’
+	•	http://www.w3schools.com/html/html_attributes.asp
+	•	Conventions for attributes and css: there cannot be spaces in the attribute name. Spaces are represented by dashes.
+	•	You can make up any attribute names you want, but only some will have meaning to the browser (class, href, src, id, name, type)
+	•	Tags sometimes also contain descriptors called “attributes.” These are denoted inside of the open tag like so:
+	•	&lt;div id=”park”&gt;I am the park&lt;/div&gt;
+	•	&lt;p class=”paragraph”&gt;
+            I am inside a paragraph tag with the class of “paragraph”
+	•	&lt;/p&gt;
+	•	Specific id attributes are only used once per page of your web site. Another example of an id attribute would be “nav” or “navigation” because your site will only have a single navigation section. In the case of class attributes, you may use them multiple times per page on your site and they should be used when combining information and display.
+	•	Id and class are not the only types of attributes but they will be used in the next (CSS) lesson heavily and you should use them to help denote what parts of your web site are used for.
+
+Id vs. Class best practices.
+	•	There are special attributes for certain tags. Id, class, href, style, title, src.
+	•	These have special meaning when the HTML is being rendered by the browser.
+	•	You can also create attributes of your own choosing. 
+	•	Id is a unique identifier for that HTML object. There should not be duplicate names for elements.
+	•	Class is what is commonly used for CSS styling. Class values are space delimited inside the string. e.g. Class=‘btn small’
+	•	Href is used with &lt;a&gt;&lt;/a&gt; elements, and it is the link reference.
+	•	Src is used with images, and it is the image reference (often a link)
+	•	Style can be used to add inline CSS. This is not a recommended practice but possible. Style=‘width:10px;’
+
+What is the DOM and why is it important?
+	•	Browsers are responsible for rendering
+	•	Not all browsers render things the same.
+	•	They create the Document Object Model, which is a tree of the html elements.
+	•	Document Object Model
+	•	http://en.wikipedia.org/wiki/Document_Object_Model
+	•	http://www.w3.org/DOM/
+	•	Traversals and trees.
+	•	http://javascript.info/tutorial/traversing-dom
+	•	http://www.w3schools.com/jquery/jquery_traversing.asp
+	•	http://www.w3schools.com/jsref/dom_obj_document.asp
+</Text>
+        </Document>
+        <Document ID="20">
+            <Title>Pushing code to Github</Title>
+            <Text>	•	Git status
+	•	Git add .
+	•	Git commit -m “commit message here”
+	•	Git push origin master
+</Text>
+        </Document>
+        <Document ID="13">
+            <Title>Intro to Bootstrap</Title>
+            <Text>	•	How the browser gets the bootstrap CSS files
+	◦	&lt;link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css"&gt;
+	◦	Makes a call to the given URL and gets back a CSS file.
+	◦	What does this mean for your page’s CSS.
+	◦	Browser styles, bootstrap styles, and your styles (style.css)
+	•	Bootstrap grid
+	◦	Container, row, col
+	•	Bootstrap responsive elements
+	◦	Col-lg, col-md, col-sm
+	•	Less and Sass
+	◦	What are they?
+	◦	Why do we use them? (Intro to variables)
+	•	Examples
+
+Getting started:
+	•	Cd ~/projects
+	•	Mkdir bootstrap-examples
+	•	Cd bootstrap-examples
+	•	Touch index.html
+	•	Python -m SimpleHTTPServer
+	•	Got to http://localhost:8000 in your browser
+
+
+Bootstrap Containers
+'container' is a class that you can add to any element. It should be added mostly to block level elements (i.e. div, ul, table). Here is an example of a simple container. All of the styles in this HTML come from Bootstrap.
+
+-------------Paste into index.html-------------------
+&lt;html lang="en"&gt;
+  &lt;head&gt;
+    &lt;!-- Latest compiled and minified CSS --&gt;
+    &lt;link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css"&gt;
+  &lt;/head&gt;
+
+  &lt;body&gt;
+    &lt;div class="container"&gt;
+
+      &lt;!-- Main component for a primary marketing message or call to action --&gt;
+      &lt;div class="jumbotron"&gt;
+        &lt;h1&gt;Navbar example&lt;/h1&gt;
+        &lt;p&gt;This example is a quick exercise to illustrate how the containers in bootstrap work.&lt;/p&gt;
+        &lt;P&gt;To see the difference between container and container-fluid, change the class in index.html from container to container-fluid&lt;/p&gt;
+      &lt;/div&gt;
+
+    &lt;/div&gt; &lt;!-- /container --&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+
+
+Bootstrap Grid System
+Below is the HTML code for 1 row in bootstrap with 6 evenly sized columns. Inside each column I added a button, so even though the buttons are different widths the columns are still evenly spaced. Thi
+
+------------------Paste into index.html—————————
+&lt;html lang="en"&gt;
+  &lt;head&gt;
+    &lt;!-- Latest compiled and minified CSS --&gt;
+    &lt;link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css"&gt;
+  &lt;/head&gt;
+
+  &lt;body id="site-wrap"&gt;
+    &lt;div class="container"&gt;
+      &lt;div class="row"&gt;
+        &lt;div class='col-sm-2'&gt;
+          &lt;h3&gt;Buttons&lt;/h3&gt;
+        &lt;/div&gt;
+        &lt;div class='col-sm-2'&gt;
+          &lt;a class="btn btn-primary" href="#navbar" role="button"&gt;Primary&lt;/a&gt;
+        &lt;/div&gt;
+        &lt;div class='col-sm-2'&gt;
+          &lt;a class="btn btn-success" href="#navbar" role="button"&gt;Success&lt;/a&gt;
+        &lt;/div&gt;
+        &lt;div class='col-sm-2'&gt;
+          &lt;a class="btn btn-info" href="#navbar" role="button"&gt;Info&lt;/a&gt;
+        &lt;/div&gt;
+        &lt;div class='col-sm-2'&gt;
+          &lt;a class="btn btn-warning" href="#navbar" role="button"&gt;Warning&lt;/a&gt;
+        &lt;/div&gt;
+        &lt;div class='col-sm-2'&gt;
+          &lt;a class="btn btn-danger" href="#navbar" role="button"&gt;Danger&lt;/a&gt;
+        &lt;/div&gt;
+      &lt;/div&gt; &lt;!-- /row --&gt;
+    &lt;/div&gt; &lt;!-- /container --&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+
+---------------------Paste into style.css—————————————
+#site-wrap .btn {
+  margin:10px auto 0;
+}
+</Text>
+        </Document>
+        <Document ID="43">
+            <Title>To Do List</Title>
+            <Text>HTML Exercise:
+	•	cd ~
+	•	cd projects
+	•	mkdir to-do-list
+	•	cd to-do-list
+	•	touch index.html
+	•	python -m SimpleHTTPServer
+	•	Open http://localhost:8000 in your browser
+	•	Open index.html
+	•	Copy and paste the below html into your index.html file
+	•	Any html you add to the body will show up when you refresh the page
+	•	In the HTML, create the HTML for your To Do list and populate it with a few items. Remember inputs (type=‘checkbox’) and labels. Also, you might want to put your to do items in a ul list.
+
+&lt;!DOCTYPE html&gt;
+&lt;html lang=‘en’&gt;
+    &lt;head&gt;
+        &lt;title&gt;To Do List&lt;/title&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+    &lt;/body&gt;
+&lt;/html&gt;
+
+CSS Exercise:
+	•	cd ~
+	•	cd projects
+	•	cd to-do-list
+	•	Touch style.css
+	•	python -m SimpleHTTPServer
+	•	Open http://localhost:8000 in your browser
+	•	Open index.html
+	•	Open style.css
+	•	Inside your &lt;head&gt;&lt;/head&gt; tags, put the following lines:
+	⁃	&lt;link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"&gt;
+	⁃	&lt;link rel=‘stylesheet’ href=‘style.css’&gt;
+	•	Any styles you add to style.css will now show up when you reload the page.
+
+JQuery Exercise #1: Change element when checked
+	•	cd ~
+	•	cd projects
+	•	cd to-do-list
+	•	Touch script.js
+	•	python -m SimpleHTTPServer
+	•	Open http://localhost:8000 in your browser
+	•	Open index.html
+	•	Open style.css
+	•	Open script.js
+	•	Inside your &lt;head&gt;&lt;/head&gt; tags, put the following lines:
+	⁃	&lt;script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"&gt;&lt;/script&gt;
+	⁃	&lt;script src=‘script.js’&gt;&lt;/script&gt;
+	•	Copy and paste the following code into your script.js file.
+	•	Add a click handler to your checkboxes inside the document ready function
+	⁃	either change the style of the done element or remove it from the list.
+
+$(document).ready(function() {
+
+});
+
+JQuery Exercise #2: Add a new element to the list
+	•	cd ~
+	•	cd projects
+	•	cd to-do-list
+	•	python -m SimpleHTTPServer
+	•	Open http://localhost:8000 in your browser
+	•	Open index.html
+	•	Open style.css
+	•	Open script.js
+	•	Adding a new element to your list
+	⁃	Add an input box and a button that says “Add New Item” to the bottom of your list.
+	⁃	Add a click handler to the button that will append a new HTML element to the end of your list with the text from the input box.
+	⁃	Hint - you’ll need to use the following:
+	⁃	&lt;script type="text/template" id="newItem"&gt;
+	⁃	&lt;/Script&gt;
+
+JQuery Exercise #3: Editing an Existing To Do Element
+	•	cd ~
+	•	cd projects
+	•	cd to-do-list
+	•	python -m SimpleHTTPServer
+	•	Open http://localhost:8000 in your browser
+	•	Open index.html
+	•	Open style.css
+	•	Open script.js
+	•	Editing an Existing To Do Element
+	⁃	Add an edit icon next to each item in the list. &lt;I class=‘fa fa-edit’&gt;&lt;/i&gt;
+	⁃	Add a click handler to the edit icon that changes the text to an input box and replaces the edit icon with a save button.
+	⁃	Add a click handler to the save button to change the input box to text and add the edit icon back.
+
+
+Getting your code to run in the browser:
+	•	To see your changes as they happen run python -m SimpleHTTPServer INSIDE the to-do-list folder. 
+	⁃	In your browser go to localhost:[port_number] where the port_number is the port that your HTTPServer is running on.
+	⁃	The port will print out when you run the above command -&gt; Serving HTTP on 0.0.0.0 port 8000 ... Mean the port_number = 8000
+	⁃	In chrome, right click and select “Inspect Element” (the last item in the list usually). In here you can see the following:
+	⁃	Elements (HTML elements on the page)
+	⁃	Network (network calls to other web pages)
+	⁃	Sources (JS, CSS, and images on the page)
+	⁃	Timeline
+	⁃	Profiles
+	⁃	Resources
+	⁃	Audits
+	⁃	Console (where console.log from your JS code will print)
+</Text>
+        </Document>
+        <Document ID="36">
+            <Title>Javascript Review</Title>
+        </Document>
+        <Document ID="3">
+            <Title>Untitled</Title>
+        </Document>
+        <Document ID="14">
+            <Title>Intro to CSS</Title>
+            <Text>￼￼CSS(The parts you’ll use)￼
+￼￼What is CSS?● Describes the look of markup languages￼
+￼￼What is CSS?● Describes the look of markup languages ● Most often used with HTML￼
+￼￼What is CSS?● Describes the look of markup languages● Most often used with HTML● Can be used with any kind of XML document￼
+￼￼CSS Added to HTMLAdded to HTML 4.0 to solve a problem￼
+￼￼CSS Added to HTMLHTML tags like &lt;font&gt; and color = bad￼￼
+￼￼CSS Added to HTMLHTML tags like &lt;font&gt; and color = bad It’s a nightmare for web developers!My nightmare =&gt;￼￼￼
+￼￼CSS Added to HTMLCSS can be added as attributes = Bad￼
+￼￼CSS Added to HTMLCSS can be added as attributes = BadCSS placed inside the &lt;style&gt; tag = Still bad￼
+￼￼CSS Added to HTMLCSS can be added as attributes = BadCSS placed inside the &lt;style&gt; tag = Still bad CSS placed in its own .css file = Very good￼
+￼￼CSS Added to HTMLCSS helps organization￼
+￼￼CSS Added to HTMLCSS helps organizationCSS helps maintain a style across the site￼
+￼￼CSS Selectors* = everything￼
+￼￼CSS Selectors* = everything￼
+￼CSS Selectors* = everything￼
+￼￼CSS Selectors#x = Target ID￼￼￼
+￼CSS Selectors#x = Target ID￼
+￼￼CSS Selectors.x = Target Class￼￼
+￼CSS Selectors.x = Target Class￼
+￼￼CSS Selectorsx = Target element￼￼
+￼￼CSS Selectorsx y = Descendant￼￼
+￼￼CSS Selectors:link, :visited, :hover = Pseudo-classes￼￼
+￼￼CSS Selectorsx + y = Adjacent￼￼
+￼￼CSS Selectorsx&gt; y= Direct descendant￼￼
+￼￼Lots More CSS Selectors Out ThereAdditional reading:The 30 CSS Selectors you Must Memorize:http://bit.ly/1az70fHChild and Sibling Selectors:http://bit.ly/1iGRYSs￼￼￼</Text>
+        </Document>
+        <Document ID="22">
+            <Title>Bash Commands Intro</Title>
+            <Text>	•	Bash Commands:
+	◦	Cd
+	◦	Mkdir
+	◦	Ls
+	◦	Ls -l
+	◦	.
+	◦	..
+	◦	Git
+	◦	Python
+	◦	touch
+	◦	http://cli.learncodethehardway.org/book/</Text>
+        </Document>
+        <Document ID="15">
+            <Title>Twitter Exercise</Title>
+            <Text>Free form exercise:
+
+It's time to start working on more free form styling. We're going to have you try to imitate the layout of the Twitter login page. You don't need to get all button and visual styling, the goal is just to start working through how you layout elements on the page. 
+
+https://twitter.com/login
+
+Command Line Getting started:
+
+	•	cd ~
+	•	cd projects
+	•	mkdir twitter-page
+	•	cd twitter-page
+	•	touch index.html
+	•	touch style.css
+	•	python -m SimpleHTTPServer
+	•	Open http://localhost:8000 in your browser
+	•	Open these two files with your text editor
+	•	Copy and paste the below html into your index.html file
+	•	Any html you add to the body and css you add to style.css will show up when you refresh the page
+
+&lt;!DOCTYPE html&gt;
+&lt;html lang=‘en’&gt;
+    &lt;head&gt;
+        &lt;link rel=‘stylesheet’ href=‘style.css’&gt;
+        &lt;title&gt;Twitter Login&lt;/title&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+    &lt;/body&gt;
+&lt;/html&gt;
+
+
+</Text>
+        </Document>
+        <Document ID="6">
+            <Title>Ajax Exercises</Title>
+            <Text>	•	http://api.jquery.com/jquery.ajax/
+	•	http://www.codecademy.com/courses/javascript-beginner-en-g7vdk/0/1
+</Text>
+        </Document>
+        <Document ID="30">
+            <Title>FindLetter Demo</Title>
+            <Text>Find the instance of a single letter string inside a longer string. Below, there are three solutions. Each solution defines a function that requires a searchString and a targetLetter to be passed in. e.g:
+
+findLetter('aabdfg', 'f');
+
+//solution #1
+function findLetter(searchString, targetLetter) {
+    for(var i = 0; i &lt; searchString.length; i++) {
+        if (searchString.charAt(i) === targetLetter) {
+            return true;
+        }
+    }
+    return false;
+}
+
+
+//solution #2
+function findLetter(searchString, targetLetter) {
+    var i = 0;
+    while (i &lt; searchString.length) {
+        if (searchString.charAt(i) === targetLetter) {
+            return true;
+        }
+        i++;
+    }
+    return false;
+}
+
+
+//solution #3
+function findLetter(searchString, targetLetter) {
+    var i = 0;
+    while (searchString.charAt(i) !== targetLetter) {
+        i++;
+        if (i === searchString.length) {
+            // We have reached the end of the string without
+            // breaking out of the while loop, which means
+            // we did not find the letter so we return false.
+            return false;
+        }
+    }
+    return true;
+}
+</Text>
+        </Document>
+        <Document ID="23">
+            <Title>Installations</Title>
+            <Text>	◦	Install the “Command Line Tools” from Apple via the Developer's Site for your particular operating version of Mac (you may need to create a free “Developer” account.)
+	◦	Open the Terminal App: Navigate to Applications, then Utilities, and double-click on Terminal.
+	◦	Command Prompt for windows.
+	◦	Windows must install Python
+	◦	Installing the non-Python package manager for Mac, called “brew”:
+	▪	Copy the following command into your Terminal application:
+	▪	ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
+	▪	then hit enter.
+	▪	Once it is finished, run the command: 
+	▪	brew update
+	▪	brew doctor
+	▪	Read the last couple of lines of output; if either finishes with any instructions of commands to run, please run them. Otherwise, you're okay.
+	◦	Install the following non-Python libraries via brew with the following commands:
+	▪	brew install libpng
+	▪	brew install freetype
+	▪	brew install pkg-config
+	▪	Windows should find these packages online
+	◦	Install the Python package manager for Mac, called “pip” with the following command:
+	▪	sudo easy_install pip. 
+	▪	If you are prompted for your password, enter your machine login password.
+	◦	Create Github Account
+	▪	https://www.github.com
+	◦	Install sublime text or text wrangler
+	▪	http://www.sublimetext.com/
+	▪	http://www.barebones.com/products/textwrangler/download.html</Text>
+        </Document>
+        <Document ID="7">
+            <Title>Intro to APIs and Ajax</Title>
+            <Text>	•	API (Application Programming Interface)
+	◦	For web development, and API is just a list of URLS that you can call to get or edit data within a system.
+	◦	The example we used is Twitter's API: Twitter created a series of URLs that you can call via ajax to get information or create/edit/delete information from twitter.
+	◦	APIs must be documented by the creators of the API: e.g. https://dev.twitter.com/docs
+	•	Ajax (asynchronous javascript and xml)
+	◦	Ajax calls are used to get/create/edit/delete data from and API without reloading the page.
+	◦	When making an ajax call, you call a URL with a method and data.
+	◦	URL
+	▪	These are generally standard http:// urls like the ones you see in your browser.
+	▪	URL construction - http://www.cites.illinois.edu/101/url101.html
+	▪	Anything after ? in a url is parameters
+	◦	Methods:
+	▪	GET - get information from the given URL
+	▪	POST - create a new element with the given data
+	▪	PUT -  edit the object at the given URL with the given data
+	▪	DELETE - delete the object at the given URL
+	◦	Data (or parameters)
+	▪	Key, value pairs
+	▪	In javascript =&gt; {'key': value, 'anotherKey', anotherValue}
+	▪	The keys should never change, but the values do.
+	▪	The API documentation will tell you what keys (parameters) to send over.
+	◦	JSON
+	▪	 The ajax response should give you back a JSON object. JSON objects are key value objects.
+	▪	The object Object in javascript is also a key value object, so you store responses from ajax calls in javascript objects.
+	▪	JSON (and javascript object Objects) look like this:
+var responseObject = {
+    "args": {},
+    headers": {
+        “Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+        "X-Request-Id": "36f19f29-f7a8-4116-a9eb-927190d26c00",
+        "Accept-Encoding": "gzip,deflate,sdch",
+        "Accept-Language": "en-US,en;q=0.8",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.114 Safari/537.36",
+        "Host": "yourapihere.com",
+        "Connection": "close"
+    },
+    "url": "http://yourapihere.com/",
+    "origin": "70.36.236.244",
+    "method": "GET"
+}
+	▪	In a javascript object, you can access keys like this: objectName['keyName'] and it will return you the value of that key.
+	▪	For example, if we call the responseObject with the key url like this: responseObject['url'] we will get back the value =&gt; "http://yourapihere.com/".
+</Text>
+        </Document>
+        <Document ID="38">
+            <Title>Intro to JQuery</Title>
+            <Text>Intro to JQuery
+
+	•	$ - What is this?
+	•	Functions, variables, etc in JQuery
+	⁃	$(document).ready(function() {});
+	⁃	Selecting DOM elements
+	⁃	.find()
+	•	DOM manipulation
+	⁃	.addClass()
+	⁃	.removeClass()
+	⁃	.html()
+	⁃	.text()
+	⁃	.getAttribute()
+	•	Events
+	⁃	Click
+	⁃	Key down
+	⁃	Key up
+	⁃	Mouseover
+	⁃	Mouseout
+	•	Effects
+	⁃	FadeOut
+	⁃	Hide
+	⁃	FadeTo
+
+
+
+
+
+
+</Text>
+        </Document>
+        <Document ID="39">
+            <Title>JQuery Continued</Title>
+        </Document>
+        <Document ID="8">
+            <Title>Twitter API Lecture</Title>
+        </Document>
+        <Document ID="24">
+            <Title>Intro to the Interwebs</Title>
+        </Document>
+        <Document ID="31">
+            <Title>Intro to Functions</Title>
+            <Text>￼￼￼JavaScript￼￼Functions￼￼
+￼￼FunctionsA block of code designed to perform a particular task.￼￼￼￼
+￼￼FunctionsA block of code designed to perform a particular task.And is executed when "something" invokes it (calls it).￼￼￼￼
+￼￼Function Example*￼￼￼￼functionmyFunction(p1, p2) {￼￼return p1p2; // the function returns the product of p1 and p2￼￼￼}￼￼
+￼￼Function SyntaxDefined with the function keyword￼￼￼￼
+￼￼Function SyntaxDefined with the function keyword, followed by a name￼￼￼￼
+￼￼Function SyntaxDefined with the function keyword, followed by a name,followed by parentheses ().￼￼￼￼
+￼￼Function SyntaxThe parentheses may include a list of parameter names:(parameter1, parameter2, .....)￼￼￼￼
+￼￼Function SyntaxThe code to be executed by the function is placed inside curly brackets: {}￼￼￼￼
+￼￼Function Syntax￼￼￼￼￼functionfunctionName(parameters) {￼code to be executed￼}￼￼
+￼￼Invoking a Function● When an event occurs (when a user clicks a button)￼￼￼￼
+￼￼Invoking a Function● When an event occurs (when a user clicks a button)● When it is invoked (called) from JavaScript code￼￼￼￼
+￼￼Invoking a Function● When an event occurs (when a user clicks a button)● When it is invoked (called) from JavaScript code● Automatically (self invoked)￼￼￼￼
+￼￼Function Parameters and ArgumentsYou can pass values to functions.These values are called arguments or parameters.￼￼￼￼
+￼￼Function Parameters and ArgumentsMultiple parameters are separated by commas:￼￼￼￼functionmyFunction(parameter1, parameter2) {￼code to be executed￼￼}￼￼
+￼￼Function Parameters and ArgumentsThe parameters and the arguments must be in the same order:var x = myFunction(argument1, argument2);￼￼￼￼￼
+￼￼Function Parameters and ArgumentsInside the function, the arguments can be used as local variables. (More on this in a moment.)￼￼￼￼
+￼￼The Return StatementThe function stops executing when a return statement is reached.￼￼￼￼
+￼￼The Return StatementIf invoked from a statement, the code will continue after the function returns.￼￼￼￼
+￼￼The Return StatementFunctions often computes a return value. The return value is "returned" back to the "caller":￼￼￼//Calculate the product of two numbers, and return the result:￼var x = myFunction(4, 3); // Function is called, return value will end up in x￼￼functionmyFunction(a, b) {￼￼return ab; // Function returns the product of a and b￼￼}*￼￼//The result in x will be:￼￼//12￼
+￼￼Why Functions?Reusable code. (Write once, use many times.)￼￼￼￼
+￼￼Why Functions?Reusable code. (Write once, use many times.)Use the same code with different arguments to get different results.￼￼￼￼
+￼￼Why Functions?￼￼￼￼￼functiontoCelsius(farenheit) {￼￼￼￼￼￼￼}return (5/*-9)(farenheit32);￼￼￼
+￼￼Local JavaScript VariablesA variable declared (using var) within a JavaScript function becomes LOCAL to the function.￼￼￼￼
+￼￼Local JavaScript VariablesThe variable gets a local scope: It can only be accessed from within that function.￼￼￼￼
+￼￼Local JavaScript VariablesVariables can have the same name in different functions.￼￼￼￼
+￼￼Local JavaScript VariablesParameters work as local variables in functions.￼￼￼￼
+￼￼Local JavaScript VariablesLocal variables are created when a function starts.￼￼￼￼
+￼￼Local JavaScript VariablesLocal variables are created when a function starts.And deleted when a function ends.￼￼￼￼
+￼￼Global JavaScript VariablesVariables declared outside of a function become global variables.￼￼￼￼
+￼￼Global JavaScript VariablesVariables declared outside of a function become global variables.The variable gets a global scope: All scripts and functions on the web page can access it.￼￼￼￼
+￼￼Assigning Undeclared VariablesAssign values to variables that have not yet been declared, will automatically be declared as a GLOBAL variable.￼￼￼￼
+￼￼Assigning Undeclared VariablescarName = "Volvo";This will declare the variable carName as a global variable, even if it is executed inside a function.￼￼￼￼￼￼￼￼
+￼￼ConclusionFunctions are used for holding blocks of logic. Great for reusing code.Variables are local inside of functions. Functions accept parameters (arguments).￼￼￼￼</Text>
+        </Document>
+        <Document ID="9">
+            <Title>YourAPIHere Exercise</Title>
+            <Text>	•	Cd ~/projects
+	•	Mkdir yourapihere
+	•	Cd yourapihere
+	•	Touch index.html
+	•	Touch style.css
+	•	Touch script.js
+	•	Inside of your document ready call, make an ajax call to ‘yourapihere.com’
+
+$.ajax({
+    url: ‘http://yourapihere.com',
+    method: ‘GET’
+}).success(function(data) {
+    console.log(data);
+});
+
+
+&lt;!— Copy and paste into index.html —&gt;
+
+&lt;!DOCTYPE html&gt;
+&lt;html lang=‘en’&gt;
+    &lt;head&gt;
+        &lt;link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css"&gt;
+        &lt;link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet"&gt;
+        &lt;link href="style.css" rel="stylesheet"&gt;
+
+        &lt;script src="//code.jquery.com/jquery-1.11.0.min.js"&gt;&lt;/script&gt;
+        &lt;script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"&gt;&lt;/script&gt;
+        &lt;script type="text/javascript" src="script.js"&gt;&lt;/script&gt;
+        &lt;title&gt;Final Project Title&lt;/title&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        &lt;div id=‘response-output’&gt;
+        &lt;/div&gt;
+    &lt;/body&gt;
+&lt;/html&gt;
+
+
+&lt;!— Copy and paste into your script.js file —&gt;
+
+$(document).ready(function() {
+
+});
+</Text>
+        </Document>
+    </Documents>
+</SearchIndexes>

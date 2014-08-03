@@ -1,0 +1,26 @@
+Cover the following:
+
+Complex data types:
+class and prototype:
+- What is a class? It's a template for creating "objects." These templates can define properties and functions that belong to an instance. For example if you created a Dog class, you might create an instance of a class under the variable Fido.
+- Object-oriented programming. A computer programming paradigm that creates classes to create the concept of objects. Objects have different data fields that can be variables, other objects or functions. In true object oriented languages, they support class hierarchy, meaning that classes can inherit from each other.
+- Javascript object orientation: Not true class heirarchy. You might create an object that you put things onto something called prototype. This is a hack at best, using knowledge of Javascripts implementation to allow instance objects to pretend to call things directly.
+
+strings
+- What are strings? A sequence of characters that can be stored in a variable
+- A complex data type with different types of operations
+
+Arrays
+- A special type of object that allows you to keep a list of objects in a single data structure
+- Has indexes going starting from 0
+- Variable length. You can add to an array and subtract from it without having to create a new one.
+- Arrays have special functions associated with them.
+
+Objects
+- Key value stores. A more generic array where anything can be an index.
+- Keys can be accessed either with . or []
+- Most commonly used data structure because JSON maps to it
+
+JSON
+- How information is passed around the internet
+- A string representation of objects

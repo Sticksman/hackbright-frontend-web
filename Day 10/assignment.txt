@@ -1,0 +1,29 @@
+Since we're starting off with the skeleton of a todo list, we now have a method of adding additional things to it. We've already added an "add new list item" button and a handler on the text box to add a new item on keypress.What else can we do?
+
+Day 10 possibilities:
+1. Creating a remove item button. The goal of this problem is to create a button that removes list items that have been checked. Since this is the firt exercise it'll be a little more hands on.
+a. Create a button element. Place it under the add item button. It should say Remove item and have some icon of your choosing
+b. Add a type="button" attribute
+b. Add a class="btn btn-danger"
+c. Now and an id="remove-item-btn". This way it'll be consistent with our add item button.
+d. Refresh the page. What does it look like?
+e. In the scripts .js file, add a click handler to this button.
+f. In the callback (the function that you add as an argument to click) remove the list elements that were checked.As a hint: The actual check marks themselves are in the input. You'll need to get all the checkboxes, check if they are checked, and if they are, go to their parent elements and remove those parent elements.
+
+
+2. Add a completion button in much the same way that you did a remove item button. You should define a class for completions that marks it as complete in some way. For example, you might want to say that completed items are greyed out and have a strike through. You will need to add this set of styles to styles.css
+
+
+3. On completion of an item, it should move somewhere else in the list, preferably the bottom (or to a new list). To do this, there are several approaches. The approach I like best is the creation of a custom event that will handle completions. You can bind custom events much like you do general events, using the .on() method in jQuery after which you simply add a custom name. You can fire an event using the .trigger() method and giving it the name of the event you want to fire. You can
+also access the current element that is handling the event using the "this" keyword. After that, implementation is very similar to creating the remove item button or the completion button.
+
+
+4. On click an item, replace the text with a checkbox that allows you to edit the name of the item. Then when you click enter, replace the name of the item with the value of the checkbox. This combines a number of different things we've learned. You will have to add and hide a textbox input that will have the same value as the name. Whenever you add a new item you'll also have to have the input embedded inside the item. Then when you click on the list item, you will need to unhide the
+checkbox and hide the text (so you may have to surround the text in some span). Then hitting enter should hide the textbox, take the value and replace the text.
+
+
+5. Add a button to every list element. It should be a priority button. If the button is clicked, the list item should sort itself to the top of the page. There is a javascript function called sort that can be used to sort an array. It can take a function. You can find it here: http://www.w3schools.com/jsref/jsref_sort.asp
+
+
+Day 11 assignment:
+1. Whenever you complete an item, you should tweet that you've completed said item to the world.

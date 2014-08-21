@@ -8,5 +8,8 @@
     }, {
         "complete": false,
         "name": "Finish taxes"
+    }, {
+        "complete": false,
+        "name": "Take out the trash"
     }]
 }

@@ -1,0 +1,13 @@
+.todo-list-wrapper {
+    border: 1px solid red;
+}
+
+.done-list-wrapper {
+    min-height: 25px;
+    border: 1px solid green;
+}
+
+.todo-item.complete {
+    text-decoration: line-through;
+    color: #ccc;
+}
